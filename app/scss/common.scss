@@ -89,6 +89,60 @@ body {
         color: #fff;
       }
     }
+    &.layout {
+      a {
+        color: #ff6e40;
+        &:hover {
+          background-color: #ff6e40;
+          color: #fff;
+        }
+      }
+    }
+    &.yokngalam {
+      a {
+        color: #01a2a6;
+        &:hover {
+          background-color: #01a2a6;
+          color: #fff;
+        }
+      }
+    }
+    &.tanatos {
+      a {
+        color: #f7600e;
+        &:hover {
+          background-color: #f7600e;
+          color: #fff;
+        }
+      }
+    }
+    &.modus {
+      a {
+        color: #e8645a;
+        &:hover {
+          background-color: #e8645a;
+          color: #fff;
+        }
+      }
+    }
+    &.design {
+      a {
+        color: #ebb240;
+        &:hover {
+          background-color: #ebb240;
+          color: #fff;
+        }
+      }
+    }
+    &.carckeys {
+      a {
+        color: #f6d334;
+        &:hover {
+          background-color: #f6d334;
+          color: #fff;
+        }
+      }
+    }
   }
   &__item {
     display: inline-block;
@@ -116,6 +170,9 @@ body {
       height: auto;
       width: auto;
     }
+    &.modus {
+      background-color: #76c7c0;
+    }
   }
   &__overlay {
     position: absolute;
@@ -126,6 +183,21 @@ body {
     background-color: rgba(73, 203, 205, 0.5);
     &.layout {
       background-color: rgba(255, 110, 64, 0.5);
+    }
+    &.yokngalam {
+      background-color: rgba(1,162,166,0.5);
+    }
+    &.tanatos {
+      background: none;
+    }
+    &.modus {
+      background: none;
+    }
+    &.design {
+      background: none;
+    }
+    &.carckeys {
+      background: none;
     }
   }
   &__item-name {
@@ -145,6 +217,26 @@ body {
     &.layout {
       color: #ff6e40;
       border-color: #ff6e40;
+    }
+    &.yokngalam {
+      color: #01a2a6;
+      border-color: #01a2a6;
+    }
+    &.tanatos {
+      color: #f7600e;
+      border-color: #f7600e;
+    }
+    &.modus {
+      color: #e8645a;
+      border-color: #e8645a;
+    }
+    &.design {
+      color: #ebb240;
+      border-color: #ebb240;
+    }
+    &.carckeys{
+      color: #f6d334;
+      border-color: #f6d334;
     }
   }
 }
